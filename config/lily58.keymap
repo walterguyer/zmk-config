@@ -58,7 +58,7 @@
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp LEFT_BRACE>;
-        }
+        };
         combo_num_layer_left {
             layer = <0>;
             timeout-ms = <50>;
@@ -149,7 +149,7 @@
             timeout-ms = <50>;
             key-positions = <9 10>;
             bindings = <&kp C_MUTE>;
-        }
+        };
     };
 
     keymap {
