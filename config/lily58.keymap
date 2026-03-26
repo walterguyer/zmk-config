@@ -24,128 +24,128 @@
         compatible = "zmk,combos";
         // default
         combo_tilde {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <13 14>;
             bindings = <&kp TILDE>;
         };
         combo_page_up {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <14 15>;
             bindings = <&kp PAGE_UP>;
         };
         combo_left_paren {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <14 15>;
             bindings = <&kp LEFT_PARENTHESIS>;
         };
         combo_grave {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <25 26>;
             bindings = <&kp GRAVE>;
         };
         combo_home {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp HOME>;
         };
         combo_left_brace {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp LEFT_BRACE>;
         };
         combo_num_layer_left {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <37 38>;
             bindings = <&mo 3>;
         };
-        combo_ptr_layer {
-            layer = <0>;
+        combo_ptr_layers {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <38 39>;
             bindings = <&mo 2>;
         };
         combo_left_bracket {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <39 40>;
             bindings = <&kp LEFT_BRACKET>;
         };
         combo_caps_lock {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <36 49>;
             bindings = <&kp CAPSLOCK>;
         };
         combo_right_parens {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <19 20>;
             bindings = <&kp RIGHT_PARENTHESIS>;
         };
         combo_page_down {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <20 21>;
             bindings = <&kp PAGE_DOWN>;
         };
         combo_pipe {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <21 22>;
             bindings = <&kp PIPE>;
         };
         combo_right_brace {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&kp RIGHT_BRACE>;
         };
         combo_end {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <32 33>;
             bindings = <&kp END>;
         };
         combo_backslash {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <33 34>;
             bindings = <&kp BACKSLASH>;
         };
         combo_right_bracket {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <45 46>;
             bindings = <&kp RIGHT_BRACKET>;
         };
         combo_backspace {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <46 47>;
             bindings = <&kp BACKSPACE>;
         };
         combo_delete {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <36 46 47>;
             bindings = <&kp DELETE>;
         };
         combo_num_layer_right {
-            layer = <0>;
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <47 48>;
             bindings = <&mo 3>;
         };
         // nav
         combo_mute {
-            layer = <1>;
+            layers = <1>;
             timeout-ms = <50>;
             key-positions = <9 10>;
             bindings = <&kp C_MUTE>;
