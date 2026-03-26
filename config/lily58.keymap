@@ -30,7 +30,7 @@
                         &kp LCTRL &kp LALT &kp LGUI    &trans   &trans    &kp SPACE &kp ENTER &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         nav {
@@ -48,7 +48,7 @@
                                  &trans &trans &trans    &trans   &trans    &trans     &trans           &tog nav
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         ptr {
@@ -66,7 +66,7 @@
                      &trans &trans &trans    &trans   &trans    &mkp 1         &mkp 2         &tog ptr
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         num {
@@ -84,7 +84,7 @@
                        &trans  &trans  &trans    &trans   &trans    &trans        &trans         &tog num
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
