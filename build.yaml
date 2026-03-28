@@ -17,9 +17,14 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
+
+# github.com/srwi/keypeek
+# added raw_hid_adapter shield for nice_nano_v2 to support the Raw HID module, which is a dependency of the KeyPeek module
 ---
 include:
   - board: nice_nano_v2
-    shield: lily58_left
+    shield: lily58_left raw_hid_adapter
+    # added studio-rpc-usb-uart snippet for the left half of the Lily58 to support the KeyPeek module, which is a dependency of the KeyPeek Layer Notifier module
+    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: lily58_right
